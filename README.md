@@ -1,5 +1,9 @@
 # Proyecto Angular-standalone
 
+## Framework CSS 
+
+Tailwind
+
 ## Template Utilizado
 
 Este proyecto está basado en el template **Sakai** de PrimeNG.
