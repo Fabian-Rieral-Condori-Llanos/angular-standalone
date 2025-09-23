@@ -1,0 +1,129 @@
+{
+  "configVersion": 1,
+  "timestamp": 1758588391534,
+  "index": "/angular-standalone/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-standalone/chunk-2Z5JKMRH.js",
+        "/angular-standalone/chunk-3HOAJMTB.js",
+        "/angular-standalone/chunk-5KW3ZPCW.js",
+        "/angular-standalone/chunk-743SY466.js",
+        "/angular-standalone/chunk-HHR3YHBD.js",
+        "/angular-standalone/chunk-JACKJVZA.js",
+        "/angular-standalone/chunk-MEDECE2Y.js",
+        "/angular-standalone/chunk-MOOCREL3.js",
+        "/angular-standalone/chunk-PEQ4CZRM.js",
+        "/angular-standalone/chunk-RQUXQMDV.js",
+        "/angular-standalone/chunk-SG7T75R2.js",
+        "/angular-standalone/chunk-SRUQMRJ6.js",
+        "/angular-standalone/favicon.ico",
+        "/angular-standalone/index.html",
+        "/angular-standalone/main-43NWIQJ2.js",
+        "/angular-standalone/manifest.webmanifest",
+        "/angular-standalone/polyfills-5CFQRCPP.js",
+        "/angular-standalone/styles-MS2GRNI6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-standalone/icons/icon-128x128.png",
+        "/angular-standalone/icons/icon-144x144.png",
+        "/angular-standalone/icons/icon-152x152.png",
+        "/angular-standalone/icons/icon-192x192.png",
+        "/angular-standalone/icons/icon-256x256.png",
+        "/angular-standalone/icons/icon-384x384.png",
+        "/angular-standalone/icons/icon-48x48.png",
+        "/angular-standalone/icons/icon-512x512.png",
+        "/angular-standalone/icons/icon-72x72.png",
+        "/angular-standalone/icons/icon-96x96.png",
+        "/angular-standalone/media/flags_responsive-FLFJ4F7K.png",
+        "/angular-standalone/media/primeicons-4GST5W3O.woff2",
+        "/angular-standalone/media/primeicons-DHQU4SEP.svg",
+        "/angular-standalone/media/primeicons-GEFHGEHP.ttf",
+        "/angular-standalone/media/primeicons-P53SE5CV.woff"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "primefaces-images",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/primefaces\\.org\\/cdn\\/primevue\\/images\\/product\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular-standalone/chunk-2Z5JKMRH.js": "7b7ef3f301457e8aa33e6ecfdd72c8be7a45fcd6",
+    "/angular-standalone/chunk-3HOAJMTB.js": "8e410ce3bc4ac7ecfe72e0c4df38416bab866fc8",
+    "/angular-standalone/chunk-5KW3ZPCW.js": "4524c7c8df938b6e5e6b421243c0515516951171",
+    "/angular-standalone/chunk-743SY466.js": "3b15d40354577d6e759c6c2e3f9e4ec5616ff98c",
+    "/angular-standalone/chunk-HHR3YHBD.js": "53caa5f9eeff8b3f5d3f9a5dc48657fbbad1726f",
+    "/angular-standalone/chunk-JACKJVZA.js": "a18ed764cfbd0312f9acca753bb914e9a7d804da",
+    "/angular-standalone/chunk-MEDECE2Y.js": "bc6966f962d53889d94619af961c202be25de025",
+    "/angular-standalone/chunk-MOOCREL3.js": "64e7416d8e47ca9fb30ecaf2f5f49a713d2d2686",
+    "/angular-standalone/chunk-PEQ4CZRM.js": "26921853880f8d85c6843fcd930210d2416313dd",
+    "/angular-standalone/chunk-RQUXQMDV.js": "101f9c5a1c89652993e4ee1c700335e8361931ba",
+    "/angular-standalone/chunk-SG7T75R2.js": "25f86c201140e5a789417190b7983f78477e2613",
+    "/angular-standalone/chunk-SRUQMRJ6.js": "18d46b3f664c934c33f9147cc0190a80f770c85b",
+    "/angular-standalone/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/angular-standalone/icons/icon-128x128.png": "f91a97c6ec1c5670e505307b25de6702bead1cc7",
+    "/angular-standalone/icons/icon-144x144.png": "ef09d8a5745f5a5a96b99dbf189b61ad8c8ed94f",
+    "/angular-standalone/icons/icon-152x152.png": "a540498921cdcf2340a3239a6d770cca87374597",
+    "/angular-standalone/icons/icon-192x192.png": "673eebec0945aaf92cd091058cbe0ff2876ba126",
+    "/angular-standalone/icons/icon-256x256.png": "5a8aaa23eeb85f6a3550ceb55385db9f02dceefe",
+    "/angular-standalone/icons/icon-384x384.png": "a33d8f7b14a212d82502078d9751e71035bd7d79",
+    "/angular-standalone/icons/icon-48x48.png": "caf003612898af371b508bc02daef8f2bd56195c",
+    "/angular-standalone/icons/icon-512x512.png": "23fc5634106dc96189e49d77cab9d04f6e311fdf",
+    "/angular-standalone/icons/icon-72x72.png": "e5d0c0db23cd563fb7b484d0380ce8218208fe8e",
+    "/angular-standalone/icons/icon-96x96.png": "abc224efa5d46f66dac49af29f692fb7bd5b5af9",
+    "/angular-standalone/index.html": "9d3391f3aff86f807725059fbe64ec95879eaa94",
+    "/angular-standalone/main-43NWIQJ2.js": "fb82882a0a2aa85384014108a24e2d364f9b4503",
+    "/angular-standalone/manifest.webmanifest": "ff82fc2858694007a96bb6918ee86f7fff712697",
+    "/angular-standalone/media/flags_responsive-FLFJ4F7K.png": "c1c4ac0f8369b4aa4b4c22a052e472b8d5f479c6",
+    "/angular-standalone/media/primeicons-4GST5W3O.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
+    "/angular-standalone/media/primeicons-DHQU4SEP.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
+    "/angular-standalone/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
+    "/angular-standalone/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
+    "/angular-standalone/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/angular-standalone/styles-MS2GRNI6.css": "f2617a4ff8a9877d2fba883d9710292696c7e914"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
