@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758588391534,
+  "timestamp": 1758591275997,
   "index": "/angular-standalone/index.html",
   "assetGroups": [
     {
@@ -28,7 +28,7 @@
         "/angular-standalone/main-43NWIQJ2.js",
         "/angular-standalone/manifest.webmanifest",
         "/angular-standalone/polyfills-5CFQRCPP.js",
-        "/angular-standalone/styles-MS2GRNI6.css"
+        "/angular-standalone/styles-3LVMP4TH.css"
       ],
       "patterns": []
     },
@@ -96,7 +96,7 @@
     "/angular-standalone/icons/icon-512x512.png": "23fc5634106dc96189e49d77cab9d04f6e311fdf",
     "/angular-standalone/icons/icon-72x72.png": "e5d0c0db23cd563fb7b484d0380ce8218208fe8e",
     "/angular-standalone/icons/icon-96x96.png": "abc224efa5d46f66dac49af29f692fb7bd5b5af9",
-    "/angular-standalone/index.html": "9d3391f3aff86f807725059fbe64ec95879eaa94",
+    "/angular-standalone/index.html": "b7b65b807f1b640c3cad1743e60f4565e3a3688b",
     "/angular-standalone/main-43NWIQJ2.js": "fb82882a0a2aa85384014108a24e2d364f9b4503",
     "/angular-standalone/manifest.webmanifest": "ff82fc2858694007a96bb6918ee86f7fff712697",
     "/angular-standalone/media/flags_responsive-FLFJ4F7K.png": "c1c4ac0f8369b4aa4b4c22a052e472b8d5f479c6",
@@ -105,7 +105,7 @@
     "/angular-standalone/media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
     "/angular-standalone/media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
     "/angular-standalone/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
-    "/angular-standalone/styles-MS2GRNI6.css": "f2617a4ff8a9877d2fba883d9710292696c7e914"
+    "/angular-standalone/styles-3LVMP4TH.css": "94c30502d758c9de502327f7e44ee996b7d82855"
   },
   "navigationUrls": [
     {

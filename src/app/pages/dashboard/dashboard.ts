@@ -35,7 +35,6 @@ import { OfflineService } from '../../services/offline.service';
                 <app-notifications-widget />
             </div>
         </div>
-       
     `
 })
 export class Dashboard implements OnInit {

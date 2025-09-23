@@ -5,13 +5,12 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class NotificationService {
-  private permissionStatus = new BehaviorSubject<NotificationPermission>('default');
-  public permission$ = this.permissionStatus.asObservable();
+  private permissionSubject = new BehaviorSubject<NotificationPermission>('default');
+  public permission$ = this.permissionSubject.asObservable();
 
   constructor() {
-    // Verificar estado inicial de permisos
     if ('Notification' in window) {
-      this.permissionStatus.next(Notification.permission);
+      this.permissionSubject.next(Notification.permission);
     }
   }
 
@@ -23,7 +22,7 @@ export class NotificationService {
 
     if (Notification.permission === 'default') {
       const permission = await Notification.requestPermission();
-      this.permissionStatus.next(permission);
+      this.permissionSubject.next(permission);
       return permission;
     }
 
@@ -47,12 +46,10 @@ export class NotificationService {
         ...options
       });
 
-      // Auto cerrar después de 5 segundos
       setTimeout(() => {
         notification.close();
       }, 5000);
 
-      // Manejar eventos de la notificación
       notification.onclick = () => {
         window.focus();
         notification.close();
@@ -65,7 +62,6 @@ export class NotificationService {
     }
   }
 
-  // Método para mostrar notificaciones predefinidas del dashboard
   async showDashboardNotification(type: 'sale' | 'revenue' | 'user' | 'test' = 'test'): Promise<boolean> {
     const notifications = {
       sale: {
@@ -105,8 +101,8 @@ export class NotificationService {
     return Notification.permission === 'granted';
   }
 
-  get permissionStatus(): NotificationPermission {
-    return this.permissionStatus.value;
+  get currentPermission(): NotificationPermission {
+    return this.permissionSubject.value;
   }
 
   get isSupported(): boolean {
